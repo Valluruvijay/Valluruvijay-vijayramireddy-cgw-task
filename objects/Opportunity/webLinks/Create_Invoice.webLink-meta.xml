@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Create_Invoice</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>Create Invoice</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>/lightning/cmp/c__createInvoice?c__origin_record={!Opportunity.Id}&amp;c__account={!Opportunity.AccountId}&amp;c__invoice_date={!Opportunity.CloseDate}&amp;c__invoice_due_date={!Opportunity.Due_Date__c}&amp;c__child_relationship_name=Product&amp;c__line_item_description=product description&amp;c__line_item_quantity={!Opportunity.Total_Quantity__c}&amp;c__line_item_unit_price={!Opportunity.Total_Unit_price__c}&amp;c__invoice_reference=opportunity</url>
+</WebLink>
